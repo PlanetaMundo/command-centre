@@ -1,0 +1,15 @@
+.image {
+    width: 100%;
+    height: auto
+}
+
+.text {
+    font-size: 1rem;
+}
+
+@media (min-width: 850px) {
+    .image {
+        max-width: 500px;
+        height: auto;
+    }
+}

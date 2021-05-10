@@ -1,0 +1,19 @@
+.container {
+    margin: 0 auto;
+    padding: 1rem;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+@media (min-width: 850px) {
+    .container {
+        max-width: 850px;
+    }
+}

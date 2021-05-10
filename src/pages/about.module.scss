@@ -1,0 +1,31 @@
+.heading {
+    font-size: 2.7rem;
+    text-decoration: underline;
+}
+
+.language-button {
+    padding: .4rem .8rem;
+    background-color: rgb(37, 207, 128);
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 1em;
+    text-decoration: none;
+    border: none;
+    font-size: 1em;
+
+}
+
+.language-button:hover {
+    color:rgb(37, 207, 128);
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+.paragraph{
+    margin-top: 1.5em;
+    padding: .4rem .7em;
+    line-height: 160%;
+    font-size: 1.7em;
+    color:white;
+    border-left: 4px solid rgb(37, 207, 128);
+}
