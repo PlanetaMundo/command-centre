@@ -62,7 +62,7 @@ export default function IndexPage() {
               <h2 className={homeStyles.flexElement}>3D printing</h2>
               <h2 className={homeStyles.flexElement}>Raspberry Pi</h2>
             </div>
-        </Layout>
+    </Layout>
         </>
   )
 }
