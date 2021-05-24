@@ -13,25 +13,25 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 
 
-    <ParticlesBackground />
-    <Layout>
-      <Head title="Home"/>
+<ParticlesBackground />
+<Layout>
+<Head title="Home"/>
           {/* <button onClick={() => setStatus(!status)}>
           {Current status: ${status ? 'on' : 'off'}}
             </button> */}
-            <h1>Hello.</h1>
-            <h2>This site is done by a good mate whoes mission is to educate the population.</h2>
+<h1>Hello.</h1>
+<h2>This site is done by a good mate whose mission is to educate the population.</h2>
          
-            <img src={techImage} className={homeStyles.image} alt="TechImage"></img>
-            <h2 className={homeStyles.topicsCovered}>Topics covered</h2>
-            <div className={homeStyles.flexBox}>
-              <h2 className={homeStyles.flexElement}>Linux</h2>
-              <h2 className={homeStyles.flexElement}>Cryptocurrency</h2>
-              <h2 className={homeStyles.flexElement}>Python</h2>
-              <h2 className={homeStyles.flexElement}>3D printing</h2>
-              <h2 className={homeStyles.flexElement}>Raspberry Pi</h2>
-            </div>
-        </Layout>
-        </>
-  )
-}
+<img src={techImage} className={homeStyles.image} alt="TechImage"></img>
+<h2 className={homeStyles.topicsCovered}>Topics covered</h2>
+<div className={homeStyles.flexBox}>
+<h2 className={homeStyles.flexElement}>Linux</h2>
+<h2 className={homeStyles.flexElement}>Cryptocurrency</h2>
+<h2 className={homeStyles.flexElement}>Python</h2>
+<h2 className={homeStyles.flexElement}>3D printing</h2>
+<h2 className={homeStyles.flexElement}>Raspberry Pi</h2>
+</div>
+</Layout>
+</>
+
+
