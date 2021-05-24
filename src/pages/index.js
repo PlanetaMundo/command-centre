@@ -33,4 +33,5 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
             </div>
         </Layout>
         </>
-
+  )
+}
