@@ -13,8 +13,6 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 
 
-  return (
-    <>
     <ParticlesBackground />
     <Layout>
       <Head title="Home"/>
@@ -35,5 +33,4 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
             </div>
         </Layout>
         </>
-  )
-}
+
