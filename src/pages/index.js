@@ -10,16 +10,17 @@ import * as homeStyles from './home.module.scss'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 
-
-
-
-<ParticlesBackground />
-<Layout>
-<Head title="Home"/>
-          {/* <button onClick={() => setStatus(!status)}>
-          {Current status: ${status ? 'on' : 'off'}}
+export default function IndexPage() {
+  
+  return (
+    <>
+		<ParticlesBackground />
+		<Layout>
+			<Head title="Home"/>
+			{/* <button onClick={() => setStatus(!status)}>
+			{Current status: ${status ? 'on' : 'off'}}
             </button> */}
-<h1>Hello.</h1>
+			<h1>Hello.</h1>
 <h2>This site is done by a good mate whose mission is to educate the population.</h2>
          
 <img src={techImage} className={homeStyles.image} alt="TechImage"></img>
@@ -34,4 +35,6 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 </Layout>
 </>
 
+  )
+}
 
