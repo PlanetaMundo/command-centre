@@ -23,7 +23,7 @@ export default function IndexPage() {
 			<h1>Hello.</h1>
 
 		<h2>This site is done by a good mate whose mission is to educate the population.</h2>
-	  <h2>Check my blog posts! Thanks. below is an irrelevant image</h2>
+	  <h2>Check my blog posts! Thanks.</h2>
          
 {/* <img src={techImage} className={homeStyles.image} alt="TechImage"></img> */}
 
