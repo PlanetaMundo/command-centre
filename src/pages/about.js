@@ -22,7 +22,17 @@ export default function AboutPage() {
                     {`${language ? 'Spanish' : 'English'}`}
                 </button>
             </div>
-            <p className={aboutStyles.paragraph}>{`${language ? quotaEnglish : quotaSpanish}`}</p>
+                <p className={aboutStyles.paragraph}>{`${language ? quotaEnglish : quotaSpanish}`}</p>
+            
+            <h2 className={homeStyles.topicsCovered}>Topics covered</h2>
+            <div className={homeStyles.flexBox}>
+            <h2 className={homeStyles.flexElement}>Linux</h2>
+            <h2 className={homeStyles.flexElement}>Cryptocurrency</h2>
+            <h2 className={homeStyles.flexElement}>Python</h2>
+            <h2 className={homeStyles.flexElement}>3D printing</h2>
+            <h2 className={homeStyles.flexElement}>Raspberry Pi</h2>
+            </div>
+            
         </Layout>
         </>
     )
