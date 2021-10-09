@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: '{Command Centre}',
+    title: 'Macrobiomimetics',
     author: 'Khandobin Fedor'
   },
   plugins: [
