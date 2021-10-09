@@ -6,8 +6,8 @@ import ParticlesBackground from '../components/particles'
 import * as aboutStyles from './about.module.scss'
 
 export default function AboutPage() {
-    let quotaEnglish = "the emulation of the models, systems, and elements of nature for the purpose of solving complex human problems."
-    let quotaSpanish = " la ciencia que estudia a la naturaleza, como fuente de inspiración de tecnologías innovadoras, para resolver aquellos problemas humanos que la naturaleza ha resuelto"
+    let quotaEnglish = "The emulation of the models, systems, and elements of nature for the purpose of solving complex human problems."
+    let quotaSpanish = "La ciencia que estudia a la naturaleza, como fuente de inspiración de tecnologías innovadoras, para resolver aquellos problemas humanos que la naturaleza ha resuelto"
     const [language, setLanguage] = useState(quotaEnglish)
 
 
