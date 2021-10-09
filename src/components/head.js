@@ -13,7 +13,7 @@ export default function Head( { title } ) {
         }
     `)
     return (
-        // obtained from https://github.com/PlanetaMundo/command-centre/blob/main/gatsby-config.js
+        {/*obtained from https://github.com/PlanetaMundo/command-centre/blob/main/gatsby-config.js*/}
         <Helmet title={`${title} | ${data.site.siteMetadata.title}`}/>
     )
 }
