@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Head from '../components/head'
 import ParticlesBackground from '../components/particles'
 import * as aboutStyles from './about.module.scss'
+import * as homeStyles from './home.module.scss'
 
 export default function AboutPage() {
     let quotaEnglish = "The emulation of the models, systems, and elements of nature for the purpose of solving complex human problems."
