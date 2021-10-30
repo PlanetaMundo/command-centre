@@ -15,7 +15,8 @@ export default function Footer() {
     return (
         <footer className={footerStyles.footer}>
     {/*obtained from https://github.com/PlanetaMundo/command-centre/blob/main/gatsby-config.js*/}
-            <p>Created by {data.site.siteMetadata.author} and maintained by someone else, © 2021</p>
+            <p>Created by {data.site.siteMetadata.author}, © 2021 <svg xmlns="https://github.com/PlanetaMundo/command-centre/icons8-github.svg" href="https://github.com/PlanetaMundo/command-centre">
+                </svg> </p>
         </footer>
     )
 }
