@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from "gatsby"
 import * as footerStyles from './footer.module.scss'
-import githubLogo from './pages/icons8-github-30.png'
+import githubLogo from '../pages/icons8-github-30.png'
 
 export default function Footer() {
     const data = useStaticQuery(graphql`
