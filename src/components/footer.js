@@ -21,7 +21,7 @@ export default function Footer() {
             <a href="https://github.com/PlanetaMundo/command-centre" target="_blank">
             <img src={githubLogo} className={footerStyles.image} alt="logo"></img></a>
                 <b href="https://www.youtube.com/user/chacotasprod" target="_blank">
-                    <img src={youtubeLogo} className={footerStyles.image} alt="logo"></img></a>
+                    <img src={youtubeLogo} className={footerStyles.image} alt="logo"></img></b>
                 </p>
         </footer>
     )
