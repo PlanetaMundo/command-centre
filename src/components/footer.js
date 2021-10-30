@@ -21,4 +21,4 @@ export default function Footer() {
         </footer>
     )
 }
-icons8-github-30.png
+
