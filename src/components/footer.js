@@ -20,8 +20,8 @@ export default function Footer() {
             <p>Created by {data.site.siteMetadata.author}, © 2021 
             <a href="https://github.com/PlanetaMundo/command-centre" target="_blank">
             <img src={githubLogo} className={footerStyles.image} alt="logo"></img></a>
-                <b href="https://www.youtube.com/user/chacotasprod" target="_blank">
-                    <img src={youtubeLogo} className={footerStyles.image} alt="logo"></img></b>
+                <a href="https://www.youtube.com/user/chacotasprod" target="_blank">
+                    <img src={youtubeLogo} className={footerStyles.image} alt="logo"></img></a>
                 </p>
         </footer>
     )
